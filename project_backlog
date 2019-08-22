@@ -1,0 +1,46 @@
+			~Project Backlog Brainstorming~ 
+_______________________________________________________________________________
+
+---> Hardware:
+     --------
+1) The Squirter: some device that sprays water
+	a) How will it be triggered? 
+	b) Water reserve?
+
+2) The Turret: mount for The Squirter, actuated for tracking/aim
+	a) How will it be controlled?
+	b) How many degress of freedom? 
+	
+ - My assumption was that there would be two orthagonal axis of rotation
+ so that the device could be aimed omnidirectionally, i.e. sort of like an
+ anti-aircraft gun
+  
+https://www.flickr.com/photos/brighton/3558172815
+
+3) Microcontroller:
+	a) Control actuators (could be done with arduino)
+	b) Send video feed to server, receive/execute instructions
+	- This MUST be done with R-pi, OpenCV runs on OS so we will need to 
+	transmit the video/images over Wifi/ethernet to main computer for
+	processing... 
+
+ - This whole project could probably be run on one R-pi, but we could also
+ dedicate an arduino to the actuators if there was some reason I can't forsee
+ 
+4) Camera:
+	a) Self explanatory, but will need to picked out with budget, hardware and 
+	software compatibility in mind. We can get a fairly nice one from MTRE dept.
+	I bet, we used a few of them for Dr. Marshall's research project
+	
+---> Software:
+     --------
+1) Animal Recognition:
+	a) OpenCV - easy peezy. Can identify and track movement.
+	
+2) Turret Control:
+	a) Likely just simple program to keep identified animal in center of 
+	screen.
+	b) Will need to be carefully calibrated with turret for accuracy
+	
+- I will be shocked if we can't run this whole project from one python script and <150 lines of code, as we've mentioned if we exceed expectations in time we can add 
+further fancy functionality if we want. Perhaps wave when it sees one of us, or squirt Dr. McFall anytime he comes into view. Perhaps provide warning signal?
