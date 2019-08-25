@@ -1,0 +1,45 @@
+		(My own understanding of backLog list to be submitted, per the 
+			description of SM and my responsibilities to the PO)
+	* In order of ability to be delivered as "Done" (Open to inspection
+		and adaptation)
+	* Submit with descriptions but, thoughts and questions to be deleted 
+	* Assuming there are to be 7 Sprints per our Scrum schedule
+	* Please inspect and amend as you see fit
+	* Of course this is all adaptable and could change as the project builds
+			
+	(not sure (1) is an item but, might be best to have clarification
+		to help with future Scrum Event iterations)
+	1)	Rough sketch of proposed defense system: specifications - 
+		Dimensions, functions, capability, standards, constraints
+		a)	How will this system be oriented in relation to a feeder?
+			Self-standing or attached to feeder
+		b)	What are the dimensions of this system?
+			Trying to make it as compact as possible
+	
+	2)	Water Tank: Reserve to store water or option for hard line
+		(simplest to deliver but, open to adaptation)
+		a)	How persistent are the thieves?
+		b)	What is the volumetric flow rate of the pump?
+		c)	Include low level sensor?
+	
+	3)	Turret mounts: Two axis mounting system that can hold squirter alone
+		(I've already designed this but, easily adaptable for new ideas
+		for the "squirter", I'd also need to modify design to account for
+		new stepper motors)
+		a)	How large do we need this to be?
+			Depends on which squirter is utilized
+	
+	4)	Manual control "Squirter" with micro controller: On and off to show
+		functionality of code to activate pump motor and successful squirts
+		a)	Which pump do we want to implement, water gun or DIY build?
+			Interested to see how the mini water pumps work and how quiet 
+	
+	5)	Camera and animal recognition system: camera fixed on target location and 
+		video of successful tracking of squirrels
+		
+	6)	Manual Turret control system with micro controller: Two axis control
+		with Arduino and stepper motors on the turret mounts
+		
+	7)	Fully assembled squirrel deterrent system: All components assembled and
+		functioning with minimum criteria met
+		(assuming we have achieved all previous sprints successfully)
