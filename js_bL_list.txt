@@ -1,45 +1,75 @@
-		(My own understanding of backLog list to be submitted, per the 
-			description of SM and my responsibilities to the PO)
+		(My own understanding of Sprints and backLog list to be submitted)
+		
 	* In order of ability to be delivered as "Done" (Open to inspection
 		and adaptation)
 	* Submit with descriptions but, thoughts and questions to be deleted 
 	* Assuming there are to be 7 Sprints per our Scrum schedule
 	* Please inspect and amend as you see fit
 	* Of course this is all adaptable and could change as the project builds
-			
-	(not sure (1) is an item but, might be best to have clarification
+	* The lettered bullets could and should actually be the Backlog items, 
+		where the numbered bullets are Sprints (so more editing may be needed)
+	
+	(not sure (1) is a sprint but, might be best to have clarification
 		to help with future Scrum Event iterations)
-	1)	Rough sketch of proposed defense system: specifications - 
-		Dimensions, functions, capability, standards, constraints
-		a)	How will this system be oriented in relation to a feeder?
+	1)	Rough sketch of proposed defense system: specifications 
+		a) Hand sketches
+		b) Basic Dimensions
+		c) List of system components
+		d) Proof of concept
+		Q: How will this system be oriented in relation to a feeder?
 			Self-standing or attached to feeder
-		b)	What are the dimensions of this system?
+		Q: What are the dimensions of this system?
 			Trying to make it as compact as possible
 	
 	2)	Water Tank: Reserve to store water or option for hard line
 		(simplest to deliver but, open to adaptation)
-		a)	How persistent are the thieves?
-		b)	What is the volumetric flow rate of the pump?
-		c)	Include low level sensor?
+		a) Design and print or buy tank
+		b) Modify tank for access ports if necessary
+		c) Testing to hold water and function as intended
+		Q: How persistent are the thieves?
+		Q: What is the volumetric flow rate of the pump?
+		Q: Include low level sensor?
 	
 	3)	Turret mounts: Two axis mounting system that can hold squirter alone
 		(I've already designed this but, easily adaptable for new ideas
 		for the "squirter", I'd also need to modify design to account for
 		new stepper motors)
-		a)	How large do we need this to be?
+		a) Design turret base and mounts
+		b) Print or fabricate all components
+		c) Assemble components with stepper motors included
+		d) Test tolerances
+		Q: How large do we need this to be?
 			Depends on which squirter is utilized
 	
 	4)	Manual control "Squirter" with micro controller: On and off to show
 		functionality of code to activate pump motor and successful squirts
-		a)	Which pump do we want to implement, water gun or DIY build?
+		a) Aquire pump and modify or assembly as needed
+		b) Wire power for trigger to relay and Arduino
+		c) Write code for manual function
+		d) Write code for auto function
+		e) Test pump system for bugs
+		Q: Which pump do we want to implement, water gun or DIY build?
 			Interested to see how the mini water pumps work and how quiet 
 	
 	5)	Camera and animal recognition system: camera fixed on target location and 
 		video of successful tracking of squirrels
+		a) Aquire camera, design and build mount
+		b) Wire camera to Rpi
+		c) Write code/implement code and libraries for animal recoginition
+		d) Test camera system for bugs and record results
 		
 	6)	Manual Turret control system with micro controller: Two axis control
 		with Arduino and stepper motors on the turret mounts
+		a) Wiring stepper motors to Arduino
+		b) Write code for manual control of stepper motors
+		c) Write code/implement code and libraries for auto response
+			control of motors
+		d) Test turret for bugs
 		
 	7)	Fully assembled squirrel deterrent system: All components assembled and
 		functioning with minimum criteria met
 		(assuming we have achieved all previous sprints successfully)
+		a) Design and build wiring harnesses
+		b) Design and fabricate mounts for components
+		c) Design and build housing/mount for system
+		d) Test system for tolerances and bugs
