@@ -1,0 +1,6 @@
+classes = 1
+train  = /home/naivoder/feeder/CNN/squirrel_train.txt
+valid  = /home/naivoder/feeder/CNN/squirrel_test.txt
+names = /home/naivoder/feeder/CNN/classes.names
+backup = /home/naivoder/feeder/CNN/weights/
+
