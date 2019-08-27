@@ -1,6 +1,6 @@
 classes = 1
-train  = /home/art/feeder/CNN/squirrel_train.txt
-valid  = /home/art/feeder/CNN/squirrel_test.txt
-names = /home/art/feeder/CNN/classes.names
-backup = /home/art/feeder/CNN/weights/
+train  = /home/silversurfer/feeder/CNN/squirrel_train.txt
+valid  = /home/silversurfer/feeder/CNN/squirrel_test.txt
+names = /home/silversurfer/feeder/CNN/classes.names
+backup = /home/silversurfer/feeder/CNN/weights/
 
