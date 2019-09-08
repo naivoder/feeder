@@ -28,8 +28,13 @@ with open(classesFile, 'rt') as f:
 
 # Give the configuration and weight files for the model and load the network using them.
 
+<<<<<<< HEAD
 modelConfiguration = "/home/naivoder/feeder/CNN/darknet-yolov3.cfg";
 modelWeights = "/home/naivoder/feeder/CNN/weights/darknet-yolov3_final.weights";
+=======
+modelConfiguration = "/home/silversurfer/feeder/CNN/darknet-yolov3.cfg";
+modelWeights = "/home/silversurfer/feeder/CNN/weights/darknet-yolov3_final.weights";
+>>>>>>> 9e0d3f459af7d9e713dc27a13328e96a454b2a51
 
 net = cv.dnn.readNetFromDarknet(modelConfiguration, modelWeights)
 net.setPreferableBackend(cv.dnn.DNN_BACKEND_OPENCV)
